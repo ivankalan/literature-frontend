@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://localhost:5000/api/v1'
+  baseURL: 'http://103.139.192.240:5000/api/v1'
   // baseURL: 'https://literature-dw18lsfsq.herokuapp.com/api/v1',
 });
 

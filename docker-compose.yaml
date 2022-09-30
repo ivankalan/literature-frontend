@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  literature-frontend:
+    container_name: literature-frontend
+    stdin_open: true
+    image: ivankalan12/literature-frontend
+    ports:
+      - '3000:3000'
